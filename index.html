@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow-x: hidden;">
 
 <head>
     <meta charset="utf-8">
@@ -12,6 +12,7 @@
     <meta name="author" content="">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" href="images/fevicon.png" type="image/gif" />
@@ -25,9 +26,60 @@
 <body class="main-layout ">
     <!-- loader  -->
     <div class="loader_bg">
-        <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        <div class="lds-spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
     <!-- end loader -->
+    <!-- fixed navbar start -->
+    <div class="fixed-navbar">
+        <nav class="fixed-navbar__nav">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-4 col-6 logo_section">
+                        <div class="logo">
+                            <a href="index.html"><img class="w-100" src="img/logo-word.png" alt="#"></a>
+                        </div>
+                    </div>
+                    <div class="burger pr-4 ml-auto d-flex d-lg-none">
+                        <div class="burger1"></div>
+                        <div class="burger2"></div>
+                        <div class="burger3"></div>
+                    </div>
+                    <div class="col-9">
+                        <div class="fixed-nav-list d-flex justify-content-end">
+                            <ul class="d-flex">
+                                <li><a href="" class="fix-nav__link">Главная</a></li>
+                                <li><a href="" class="fix-nav__link">О нас</a></li>
+                                <li><a href="" class="fix-nav__link">Продукты</a></li>
+                                <li><a href="" class="fix-nav__link">Контакты</a></li>
+                                <li><a href="https://www.google.com/maps/place/1,+4+Sodiq+Azimov+ko'chasi,+%D0%A2%D0%BE%D1%88%D0%BA%D0%B5%D0%BD%D1%82,+%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD/@41.3007529,69.2836315,16.25z/data=!4m5!3m4!1s0x38ae8ad3b3ca9859:0x3530aca5157b3d9!8m2!3d41.3004892!4d69.283452?hl=ru"
+                                        class="location_icon_bottum_tt_link"><i class="fas fa-map-marker-alt"></i> Наш
+                                        адрес</a></li>
+                                <li><a href="mailto:agrifooduz@gmail.com" class="location_icon_bottum_tt_link"><i
+                                            class="fas fa-envelope"></i> agrifooduz@gmail.com</a></li>
+                                <li><a href="tel:+998946647600" class="location_icon_bottum_tt_link"><i
+                                            class="fas fa-phone-alt"></i> +998946647600</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- fixed navbar end -->
     <!-- header -->
     <header>
         <!-- header inner -->
@@ -59,7 +111,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-end">
-                    <div class="col-md-8 location_icon_bottum">
+                    <div class="col-lg-8 location_icon_bottum">
                         <div class="row">
                             <div class="col-md-8 ">
                                 <div class="menu-area">
@@ -67,9 +119,9 @@
                                         <nav class="main-menu">
                                             <ul class="menu-area-main">
                                                 <li class="active"> <a href="index.html">Главная</a> </li>
-                                                <li> <a href="#about">О нас</a> </li>
-                                                <li><a href="#product">Каталог</a></li>
-                                                <li><a href="#contact">Контакты</a></li>
+                                                <li> <a href="about.html">О нас</a> </li>
+                                                <li><a href="products.html">Продукты</a></li>
+                                                <li><a href="contact.html">Контакты</a></li>
 
                                             </ul>
                                         </nav>
@@ -157,7 +209,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-xl-5 col-lg-5 col-md-5 co-sm-l2">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-l2">
                         <div class="about_box">
                             <h2>О нашей компании<br><span class="black"> AGRIFOOD</span></h2>
                             <p>Agri food – Ваш проводник во вкус и качество натуральных круп и семян, выращенных под
@@ -168,9 +220,13 @@
                             <a href="#">Прочитать больше</a>
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-7 col-md-7 co-sm-l2">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-l2">
                         <div class="about_img">
-                            <figure><img src="img/logo.png" alt="img" /></figure>
+                            <iframe width="665" height="577" src="https://www.youtube.com/embed/RTzBmkGICR8"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen=""></iframe>
+                            <!-- <figure><img src="img/logo.png" alt="img" /></figure> -->
                         </div>
                     </div>
                 </div>
@@ -181,28 +237,28 @@
         <div class="for_box_bg">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                         <div class="for_box">
                             <i><img src="images/1.png" alt="#" /></i>
                             <span>1996923</span>
                             <h3>Harvesta</h3>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                         <div class="for_box">
                             <i><img src="images/2.png" alt="#" /></i>
                             <span>8000</span>
                             <h3>Units of Cattle</h3>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                         <div class="for_box">
                             <i><img src="images/3.png" alt="#" /></i>
                             <span>60002</span>
                             <h3>Farm</h3>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                         <div class="for_box">
                             <i><img src="images/4.png" alt="#" /></i>
                             <span>1623</span>
@@ -334,7 +390,6 @@
                 </div>
             </div>
         </div>
-
         <!-- end product -->
         <!-- clients -->
         <div class="testimonial clients">
@@ -374,7 +429,7 @@
                                             <div class="cross_inner">
                                                 <h3>Abdulloh Ikasimov<br><span class="ornage_color">kOkO agency</span>
                                                 </h3>
-                                                <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur
+                                                <p><i class="far fa-quote-left"></i> ipsum dolor sit amet, consectetur
                                                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                                                     dolore
                                                     magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -382,7 +437,7 @@
                                                     laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
                                                     dolor
                                                     in reprehenderit in voluptate velit
-                                                    <img src="icon/2.png" alt="#" />
+                                                    <i class="far fa-quote-right"></i>
                                                 </p>
 
                                             </div>
@@ -409,7 +464,7 @@
                                             <div class="cross_inner">
                                                 <h3>Abdulloh Ikasimov<br><span class="ornage_color">kOkO agency</span>
                                                 </h3>
-                                                <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur
+                                                <p><i class="far fa-quote-left"></i> ipsum dolor sit amet, consectetur
                                                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                                                     dolore
                                                     magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -417,7 +472,7 @@
                                                     laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
                                                     dolor
                                                     in reprehenderit in voluptate velit
-                                                    <img src="icon/2.png" alt="#" />
+                                                    <i class="far fa-quote-right"></i>
                                                 </p>
 
                                             </div>
@@ -445,7 +500,7 @@
                                             <div class="cross_inner">
                                                 <h3>Abdulloh Ikasimov<br><span class="ornage_color">kOkO agency</span>
                                                 </h3>
-                                                <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur
+                                                <p><i class="far fa-quote-left"></i> ipsum dolor sit amet, consectetur
                                                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                                                     dolore
                                                     magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -453,7 +508,7 @@
                                                     laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
                                                     dolor
                                                     in reprehenderit in voluptate velit
-                                                    <img src="icon/2.png" alt="#" />
+                                                    <i class="far fa-quote-right"></i>
                                                 </p>
 
                                             </div>
@@ -509,7 +564,7 @@
                                     </div>
                                 </form>
                             </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 sm-h400">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5041.016221766904!2d69.28287583745825!3d41.300026640485676!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ad3b3ca9859%3A0x3530aca5157b3d9!2zMSwgNCBTb2RpcSBBemltb3Yga28nY2hhc2ksINCi0L7RiNC60LXQvdGCLCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2sus!4v1643263650216!5m2!1sru!2sus"
                                     width="100%" height="100%" style="border:0;" allowfullscreen=""
@@ -531,26 +586,25 @@
         <div class="footer top_layer ">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 sm-display-none">
                         <div class="address">
                             <a href="index.html"> <img width="210" src="img/logo.png" alt="logo" /></a>
                             <h2>Высокое качество продукта</h2>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 sm-display-none">
                         <div class="address">
                             <h3>Быстрые ссылки</h3>
                             <ul class="Links_footer">
-                                <li><i class="far fa-chevron-down"></i> <a href="#">Что то</a> </li>
-                                <li><i class="far fa-chevron-down"></i> <a href="#">Что то</a> </li>
-                                <li><i class="far fa-chevron-down"></i> <a href="#">Что то</a> </li>
-                                <li><i class="far fa-chevron-down"></i> <a href="#">Что то</a> </li>
-                                <li><i class="far fa-chevron-down"></i> <a href="#">Что то</a> </li>
+                                <li><i class="far fa-chevron-down"></i> <a href="index.html">Главная</a> </li>
+                                <li><i class="far fa-chevron-down"></i> <a href="about.html">О нас</a> </li>
+                                <li><i class="far fa-chevron-down"></i> <a href="products.html">Продукты</a> </li>
+                                <li><i class="far fa-chevron-down"></i> <a href="blog.html">Блог</a> </li>
+                                <li><i class="far fa-chevron-down"></i> <a href="contact.html">Контакты</a> </li>
                             </ul>
                         </div>
                     </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 sm-display-none">
                         <div class="address">
                             <h3>Ваша почта</h3>
                             <p>Оставьте вашу эл. почту, чтобы мы связались с вами</p>
@@ -563,11 +617,9 @@
                             <button class="submit-btn">Отправить</button>
                         </div>
                     </div>
-
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="address">
                             <h3>Связи с нами</h3>
-
                             <ul class="loca">
                                 <li>
                                     <a
@@ -591,15 +643,15 @@
 
         <div class="copyright">
             <div class="container">
-                <p>© 2022 Developed by <a href="kokoagency.uz">kokoagency</a> by MuhammadUmar</a></p>
+                <p>© 2022 Developed by <a href="kokoagency.uz">kokoagency</a> by MuhammadUmar</p>
 
             </div>
         </div>
     </footer>
     <!-- <div class="scrollup"> -->
-        <a class="scrollup" href="#">
-            <i class="far fa-chevron-up"></i>
-        </a>
+    <a class="scrollup" href="#">
+        <i class="far fa-chevron-up"></i>
+    </a>
     <!-- </div> -->
     <!-- end footer -->
 
