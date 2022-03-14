@@ -1,0 +1,43 @@
+@media(max-width:992px){
+    .header-nav-list li:last-child {
+        margin-left: 0;
+    }
+    .navbar-nav .dropdown-menu {
+        position: absolute !important;
+        float: none;
+    }
+    .header-nav-list{
+        flex-direction: row !important;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .adv-card{
+        margin: 0;
+        padding: 0;
+    }
+    .advantage-card-center{
+        margin: 30px auto;
+    }
+    .video-section-info{
+        text-align: center;
+    }
+    .video-section-info__btn{
+        margin: auto;
+    }
+}
+
+@media(max-width:540px){
+    .video-section-info__text {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .video-section-info__title {
+        font-size: 30px;
+    }
+    .video-section-info .btn {
+        font-size: 20px;
+        padding: 0.7rem 30px;
+        margin-top: 20px;
+        /* width: 231px; */
+    }
+}

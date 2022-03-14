@@ -25,3 +25,4 @@ burger.addEventListener('click', () => {
 })
 // const burgerClick = () => {
 // }
+
